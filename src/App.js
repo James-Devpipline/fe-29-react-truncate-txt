@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+/* 
+Homework 4/6/2023 - Due Tomorrow
+
+Build a Truncate component that will truncate some text.
+ - Utilize children: <Truncate ....>Some Text to trunc...</Truncate> 
+ - pass the amount of characters to truncate 
+ - Don't use ellipsis if the text is less than the max amount
+ - be able to customize the ellipsis, default to "..."
+*/
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
     </div>
   );
 }
