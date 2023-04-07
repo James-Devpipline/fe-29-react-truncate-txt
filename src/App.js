@@ -8,11 +8,16 @@ Build a Truncate component that will truncate some text.
  - be able to customize the ellipsis, default to "..."
 */
 
-import './App.css';
+import React from 'react';
+import Truncate from './components/Truncate';
 
 function App() {
   return (
     <div className="App">
+      <h1><Truncate myStr={"I am a long sentence"} num={14} etc='%%%'/></h1>
+      <h1><Truncate myStr={"I am a long sentence"} num={14}/></h1>
+      <h1><Truncate myStr={"I am a long sentence"} num={100}/></h1>
+      {/* {Truncate("this is a long string", 7, "***")} */}
     </div>
   );
 }
