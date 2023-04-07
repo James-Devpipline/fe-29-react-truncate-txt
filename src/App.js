@@ -14,8 +14,8 @@ import Truncate from './components/Truncate';
 function App() {
   return (
     <div className="App">
-      <h1><Truncate myStr={"I am a long sentence"} num={14} etc='%%%'/></h1>
-      <h1><Truncate myStr={"I am a long sentence"} num={14}/></h1>
+      <h1><Truncate myStr={"I am a long sentence"} num={3} etc='%%%'/></h1>
+      <h1><Truncate myStr={"I am a long sentence"} num={3}/></h1>
       <h1><Truncate myStr={"I am a long sentence"} num={100}/></h1>
       {/* {Truncate("this is a long string", 7, "***")} */}
     </div>
